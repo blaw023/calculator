@@ -4,6 +4,9 @@ import ButtonPanel from "./ButtonPanel";
 import calculate from "../logic/calculate";
 import "./App.css";
 
+// Change this from state component to functional component.
+// This involves using useState hook instead of setState.
+// Figure out how to pass down result value into <Display /> 
 export default class App extends React.Component {
   state = {
     total: null,

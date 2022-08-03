@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 
 import "./ButtonPanel.css";
 
+//Change this from class component to functional component.
+// This involves using useState hook instead of setState. 
 export default class ButtonPanel extends React.Component {
   static propTypes = {
     clickHandler: PropTypes.func,

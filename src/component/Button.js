@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Button.css";
 
+//Change this from class component to functional component.
+// This involves using useState hook instead of setState. 
 export default class Button extends React.Component {
   static propTypes = {
     name: PropTypes.string,
